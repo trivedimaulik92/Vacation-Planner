@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bookings_list_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:verticalScrollbarPosition="left"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bookings_list_tl_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bookings_list_tl_main"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                tools:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/bookings_list_tl_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hotels_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="25dp" />
+
+            <ListView
+                android:id="@+id/bookings_hotels_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"></ListView>
+
+            <TextView
+                android:id="@+id/bookings_list_tl_flights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/flights_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="25dp" />
+
+
+            <ListView
+                android:id="@+id/bookings_flights_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:paddingBottom="10dp"></ListView>
+
+
+            <TextView
+                android:id="@+id/bookings_list_tl_car_rentals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_rentals_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="25dp" />
+
+            <ListView
+                android:id="@+id/bookings_car_rentals_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

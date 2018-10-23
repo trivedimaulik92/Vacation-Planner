@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/attractions_navigation_menu_item"
+        android:title="@string/attractions_title" />
+    <item
+        android:id="@+id/hotels_navigation_menu_item"
+        android:title="@string/hotels_title" />
+
+    <item
+        android:id="@+id/flights_navigation_menu_item"
+        android:title="@string/flights_title" />
+
+    <item
+        android:id="@+id/car_rentals_navigation_menu_item"
+        android:title="@string/car_rentals_title" />
+
+    <item
+        android:id="@+id/bookings_navigation_menu_item"
+        android:title="@string/bookings_title" />
+</menu>

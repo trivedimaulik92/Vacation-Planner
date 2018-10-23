@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Vacation Planner</string>
+    <string name="navigation_view_header_title">Vacation Planner</string>
+    <string name="attractions_title">Attractions</string>
+    <string name="hotels_title">Hotels</string>
+    <string name="flights_title">Flights</string>
+    <string name="car_rentals_title">Car Rentals</string>
+    <string name="bookings_title">Bookings</string>
+    <string name="attractions_search_et_location">Location</string>
+    <string name="attractions_search_b_search">Search</string>
+    <string name="attractions_search_label_date">Date</string>
+    <string name="attractions_search_label_activity">Activity</string>
+    <string name="attractions_search_label_budget">Budget</string>
+    <string name="attractions_search_rb_low">Low</string>
+    <string name="attractions_search_rb_high">High</string>
+    <string name="hotels_tl_fromdate">Check In</string>
+    <string name="hotels_tl_todate">Check Out</string>
+    <string name="hotels_tl_count">Adults</string>
+    <string name="hotels_list_name">Name</string>
+    <string name="hotels_list_address">Address</string>
+    <string name="hotels_list_fromDate">From</string>
+    <string name="hotels_list_toDate">To</string>
+    <string name="hotels_list_price">Total Price</string>
+    <string name="hotels_list_b_book">Book</string>
+    <string name="flights_list_tl_provider">Provider</string>
+    <string name="flights_list_tl_origin">Origin</string>
+    <string name="flights_list_tl_destination">Destination</string>
+    <string name="flights_list_tl_dep_date">Dep Date</string>
+    <string name="flights_list_tl_arr_date">Arr Date</string>
+    <string name="flights_list_tl_dep_time">Dep Time</string>
+    <string name="flights_list_tl_arr_time">Arr Time</string>
+    <string name="flights_list_tl_price">Price</string>
+    <string name="flights_list_tl_total_price">Total Price</string>
+    <string name="flights_list_b_book">Book</string>
+    <string name="flights_search_tl_origin">Origin</string>
+    <string name="flights_search_tl_destination">Destination</string>
+    <string name="flights_search_tl_type">Type</string>
+    <string name="flights_search_rb_oneway">One Way</string>
+    <string name="flights_search_rb_return">Round Trip</string>
+    <string name="flights_search_tl_dep_date">Dep Date</string>
+    <string name="flights_search_tl_arr_date">Arr Date</string>
+    <string name="car_rentals_search_tl_city">City</string>
+    <string name="car_rentals_search_tl_fromDate">Pick Up Date</string>
+    <string name="car_rentals_search_tl_toDate">Drop Off Date</string>
+    <string name="car_rentals_list_tl_agency">Provider</string>
+    <string name="car_rental_list_tl_type">Car Type</string>
+    <string name="car_rental_list_tl_from_date">Pick Up Date</string>
+    <string name="car_rental_list_tl_to_date">Drop Off Date</string>
+    <string name="bookings_list_tl_main">My Itineraries</string>
+    <string name="flights_list_tl_out">Ongoing flight</string>
+    <string name="flights_list_tl_in">Return Flight</string>
+    <string name="men_logout">Logout</string>
+
+
+
+
+
+    <string-array name="activities">
+        <item>Museum</item>
+        <item>Park</item>
+        <item>Aquarium</item>
+        <item>Hiking</item>
+        <item>Ice Skiing</item>
+        <item>River Rafting</item>
+        <item>Snow Tubing</item>
+    </string-array>
+
+
+    <string-array name="city_iata_codes">
+        <item>Atlanta, GA (ATL)</item>
+        <item>Atlantic City, NJ (AIY)</item>
+        <item>Austin, TX (AUS)</item>
+        <item>Baton Rouge, LA (BTR)</item>
+        <item>Boston, MA (BOS)</item>
+        <item>Charlotte, NC (CLT)</item>
+        <item>Chicago, IL - All airports (CHI)</item>
+        <item>Detroit, MI - All airports (DTT)</item>
+        <item>Houston, TX - All airports (HOU)</item>
+        <item>Jacksonville, FL (JAX)</item>
+        <item>Los Angeles, CA (LAX)</item>
+        <item>New York, NY - All airports (NYC)</item>
+        <item>Newark, NJ (EWR)</item>
+        <item>Philadelphia, PA - International (PHL)</item>
+        <item>Tampa, FL (TPA)</item>
+        <item>Washington DC - All airports (WAS)</item>
+    </string-array>
+
+    <string-array name="airline_provider">
+        <item>Alaska Airlines,AS</item>
+        <item>American Airlines,AA</item>
+        <item>Atlas Air,5Y</item>
+        <item>Delta Air Lines,DL</item>
+        <item>FedEx Express,FX</item>
+        <item> Hawaiian Airlines,HA</item>
+        <item>JetBlue,B6</item>
+        <item>United Airlines,UA</item>
+        <item>UPS Airlines,5X</item>
+        <item>Aeromexico,AM</item>
+        <item>Air Canada,AC</item>
+        <item>Air Transat,TS</item>
+        <item>Cargojet Airways,W8</item>
+        <item>Interjet,4O</item>
+        <item>LATAM Cargo Mexico,M7</item>
+        <item>Volaris,Y4*</item>
+        <item>WestJet,WS</item>
+
+    </string-array>
+
+    <string-array name="cities">
+        <item>Atlanta</item>
+        <item>New York City</item>
+        <item>Jersey City</item>
+        <item>Boston</item>
+        <item>Philadelphia</item>
+        <item>Chicago</item>
+        <item>San fransisco</item>
+        <item>Atlantic City</item>
+        <item>Dallas</item>
+        <item>Los Angeles</item>
+        <item>Hartford</item>
+        <item>Charlotte</item>
+        <item>Seattle</item>
+        <item>Richmond</item>
+        <item>Las Vegas</item>
+        <item>Washington DC</item>
+    </string-array>
+
+    <string name="main_fragment_title_user_identity">User Identity</string>
+    <string name="main_fragment_subtitle_user_identity">Keep track of users</string>
+    <string name="identity_demo_text_view_description">Displays the user identity.</string>
+    <string name="unknown_user">Guest User</string>
+    <string name="user_id">USER IDENTIFIER</string>
+    <string name="identity_demo_textview_username_description">User\'s name</string>
+    <string name="identity_demo_textview_userid_description">User\'s unique identifier</string>
+    <string name="identity_demo_unknown_identity_text">&lt;UNKNOWN IDENTITY&gt;</string>
+    <string name="identity_demo_dialog_dismiss_text">DISMISS</string>
+    <string name="identity_demo_error_dialog_title">Failed Identity Retrieval</string>
+    <string name="identity_demo_error_message_failed_get_identity">Could not retrieve the user identity:\u0020</string>
+    <string name="main_fragment_title_app_analytics">App Analytics</string>
+    <string name="main_fragment_subtitle_app_analytics">Understand customer usage</string>
+    <string name="feature_app_analytics_demo_button">Demo App Analytics</string>
+    <string name="app_analytics_long_description">Note that events are batch processed and may take up to 60 minutes to display in the console.</string>
+    <string name="generate_custom_event">Generate Custom Event</string>
+    <string name="generate_monetization_event">Generate Monetization Event</string>
+
+</resources>
