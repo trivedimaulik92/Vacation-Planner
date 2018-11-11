@@ -9,33 +9,21 @@ import android.support.annotation.Nullable;
 /*
 Place - This class is POJO representing a place/location
  */
-@Entity(tableName = "places")
+
 public class Place {
 
-    @PrimaryKey
-    @NonNull
-    @ColumnInfo(name = "placeid")
-    private final String mId;
 
-    @NonNull
-    @ColumnInfo(name = "title")
-    private final String title;
-
-    @NonNull
-    @ColumnInfo(name = "latitude")
-    private final double latitude;
+    private  String mId;
 
 
-    @NonNull
-    @ColumnInfo(name = "longitude")
+    private String title;
+
+    private double latitude;
+
     double longitude;
 
-    @Nullable
-    @ColumnInfo(name = "vicinity")
     String vicinity;
 
-    @Nullable
-    @ColumnInfo(name = "reference")
     String reference;
 
     public String getTitle() {
